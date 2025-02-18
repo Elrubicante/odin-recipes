@@ -69,3 +69,8 @@ width: max 600px;
         font-weight: 900;
         font-family: "Gill Sans"
     }
+
+    .recetas,.Reina,#Macaroni,.Mawlins {
+        display: flex;
+        flex: auto ;
+    }
