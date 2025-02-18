@@ -1,3 +1,7 @@
+html {
+    box-sizing: border-box;
+}
+
 .recetas {
     background-color: rgb(175, 210, 240);
     font-size: 30px;
@@ -7,10 +11,51 @@
 body {
     background-color: blueviolet;
 }
+
+.icono {
+    border: 0;
+    height: 60px;   
+}
 .titular {
+    background-color: rgb(163, 134, 190);
+    border: 8px solid black;
+
+}
+h1,.titular{
+width: max 600px;
     font-size: 56px;
-    background-color: red;
+    margin: 0 auto; 
+    padding: 5px;  
     font-family: 'Courier New';}
+    
+
+
+    h2 {
+        font-family: 'Courier New';
+        background-color: beige;
+    border: 4px solid black;
+    padding: 2px;
+    }
+
+    h3 {
+        font-family: 'Courier New';
+        background-color: beige;
+    border: 4px solid black;
+    padding: 2px;
+    }
+
+    img {
+        margin-top: 8px;
+        margin-left: 20px;
+        border: 3px solid black;
+    }
+
+    p {
+        color: aliceblue;
+        font-size: 18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+    }
 
     .Reina {
         color: rgb(61, 216, 61);
